@@ -1,4 +1,4 @@
-## Multicraft (Minecraft Hosting Panel) EULA Acceptance Button
+### Multicraft (Minecraft Hosting Panel) EULA Acceptance Button
 ======================
 
 Button for the minecraft hosting panel multicraft. Allows for accepting the EULA with one click.
