@@ -4,7 +4,7 @@
 Button for the minecraft hosting panel multicraft. Allows for accepting the EULA with one click.
 
 
-##Instructions (Written for the linux version but can also be done on windows)
+####Instructions (Written for the linux version but can also be done on windows)
 
  1. Easy to implement, just upload the contents of the "*panel*" folder to your control panel's root directory. Replace any files it asks about.
  2. Add "*scripts.conf*" to every daemon server, This is located in the "*home*" folder.
@@ -16,7 +16,9 @@ Button for the minecraft hosting panel multicraft. Allows for accepting the EULA
 
 So far only one difference from the code on the [Multicraft](http://multicraft.org/site/docs?view=howto#12.2.2) website. 
 
-This edit adds the "hint" (tooltip or question mark beside the button) option to the button which enables the user to see what the button does.
+This edit adds the "hint" (tooltip or light bulb beside the button) option to the button which enables the user to see what the button does.
+
+Preview: http://i.imgur.com/SLBpljy.png
 
 
 
