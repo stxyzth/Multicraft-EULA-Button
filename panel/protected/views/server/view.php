@@ -366,18 +366,18 @@ else
             'value'=>$form->checkBox($settings,'user_name')
                 .' '.$form->error($settings,'user_name'));
     }
-	 /**
+      /**
        * Minecraft EULA button 
        * Modified from the code on http://multicraft.org/site/docs?view=howto#12.2.2 to add a "hint" to the button.
-	   * Github: https://github.com/stxyzth
-      **/
+       * Github: https://github.com/stxyzth
+       **/
  
-	$attribs[] = array('label'=>Yii::t('mc', 'Minecraft EULA'), 'type'=>'raw',
+	$attribs[] = array('label'=>Yii::t('mc', 'Minecraft EULA'), 'type'=>'raw', //Change the button label here, edit the 'Minecraft EULA'
         'value'=>CHtml::ajaxButton(Yii::t('mc', 'Accept EULA'), '', array(
             'type'=>'POST',
             'data'=>array('ajax'=>'accept_eula', Yii::app()->request->csrfTokenName=>Yii::app()->request->csrfToken,),
             'success'=>'function(e) {if (e) alert(e);}')),
-        'hint'=>Yii::t('mc', 'Sets the value "true" in "eula.txt", check your console for confirmation.'),        
+        'hint'=>Yii::t('mc', 'Server not starting? This button sets the value "true" in "eula.txt", check your console for confirmation.'),     //Edit the hint option here   
       );
 	  
     $attribs[] = array('label'=>Theme::img('icons/closed.png', '', array('id'=>'advImg')), 'type'=>'raw',
