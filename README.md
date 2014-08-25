@@ -18,7 +18,7 @@ So far only one difference from the code on the [Multicraft](http://multicraft.o
 
 This edit adds the "hint" (tooltip or light bulb beside the button) option to the button which enables the user to see what the button does.
 
-Preview: http://i.imgur.com/SLBpljy.png
+Preview: <img src="http://i.imgur.com/SLBpljy.png">
 
 
 
